@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="icon" href="./img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Zalando+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="menuContainer">
+                <h2>Pizza Constructor</h2>
+                <p>Оберіть інгрідіенти</p>
+                <div class="menu">
+
+<!-- chease -->
+                    <div class="categoryTitle" id="chease">Сир</div>
+                    <div class="ingridiants" id="cheaseContainer">
+                        <div class="row">
+                            <div class="fetagrupe">
+                                <img src="./img/feta.png" alt="feta">
+                                <p>Фета</p>
+                            </div>
+                            <div class="matzagrupe">
+                                <img src="./img/motza.png" alt="motzarela">
+                                <p>Матсарелла</p>
+                            </div>
+                            <div class="chadergrupe">
+                                <img src="./img/cheder.png" alt="cheder">
+                                <p>Чедер</p>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="bluggrupe">
+                                <img src="./img/blu.png" alt="bluggrupe ">
+                                <p>Баргадер </p>
+                            </div>
+                            <div class="parmezangrupe">
+                                <img src="./img/parmezan.png" alt="parmezan ">
+                                <p>Пармезан </p>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- chease end -->
+<!-- meat -->
+
+
+
+                    <div class="categoryTitle" id="meat">М'ясо</div>
+                    <div class="ingridiants" id="meatContainer">
+                        <div class="row">
+                            <div class="chicengroup">
+                                <img src="./img/chicken.png" alt="chicken">
+                                <p>Курка</p>
+                            </div>
+                            <div class="becongroup">
+                                <img src="./img/bekon.png" alt="becon">
+                                <p>Бекон</p>
+                            </div>
+                            <div class="paparonigrupe">
+                                <img src="./img/paparoni.png" alt="paparoni">
+                                <p>Папероні</p>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="shunkagrupe">
+                                <img src="./img/shunka.png" alt="shunka ">
+                                <p>Шинка</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- meat end-->
+                     <!-- souse -->
+                      <div class="categoryTitle" id="sose">Соуси</div>
+                    <div class="ingridiants" id="soseContainer">
+                        <div class="row">
+                            <div class="barbequgroup">
+                                <img src="./img/barbequ.png" alt="barbequ">
+                                <p>Барбек'ю</p>
+                            </div>
+                            <div class="chasnykgroup">
+                                <img src="./img/chasnyk.png" alt="chasnyk">
+                                <p>Часниковий</p>
+                            </div>
+                            <div class="alfredogrupe">
+                                <img src="./img/alfredo.png" alt="alfredo">
+                                <p>Альфредо</p>
+                            </div>
+
+                        </div>
+                     <!-- souse end-->
+                      
+                </div>
+                <!-- vagatables -->
+                       <div class="categoryTitle" id="vegatables">Овочі</div>
+                    <div class="ingridiants" id="vegatablesContainer">
+                        <div class="row">
+                            <div class="ananasgroup">
+                                <img src="./img/ananas.png" alt="ananas">
+                                <p>Ананаси</p>
+                            </div>
+                            <div class="grubgroup">
+                                <img src="./img/grub.png" alt="grub">
+                                <p>Гриби</p>
+                            </div>
+                            <div class="kukurudzagroup">
+                                <img src="./img/kukurudza.png" alt="kukurudza">
+                                <p>Кукурудза</p>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="peretsgroup">
+                                <img src="./img/perets.png" alt="perets">
+                                <p>Перець</p>
+                            </div>
+                            <div class="shpunatgroup">
+                                <img src="./img/shpunat.png" alt="shpunat">
+                                <p>Шпинат</p>
+                            </div>
+                            <div class="tomatogrupe">
+                                <img src="./img/tomato.png" alt="tomato">
+                                <p>Томати</p>
+                            </div>
+
+                        </div>
+                      <!-- vagatables end -->
+        </div>
+    </div>
+    
+    </div>
+    <div class="pizzaBasse">
+        <img id="feta" src="./img/feta.png" alt="feta">
+        <img id="motzarela" src="./img/motza.png" alt="motzarela">
+        <img id="cheder" src="./img/cheder.png" alt="cheder">
+        <img id="bluggrupe" src="./img/blu.png" alt="bluggrupe ">
+        <img id="parmezan" src="./img/parmezan.png" alt="parmezan ">
+        <img id="chicken" src="./img/chicken.png" alt="chicken">
+        <img id="becon" src="./img/bekon.png" alt="becon">
+        <img id="paparoni" src="./img/paparoni.png" alt="paparoni">
+        <img id="shunka" src="./img/shunka.png" alt="shunka ">
+        <img id="barbequ" src="./img/barbequ.png" alt="barbequ">
+        <img id="chasnyk" src="./img/chasnyk.png" alt="chasnyk">
+        <img id="alfredo" src="./img/alfredo.png" alt="alfredo">
+        <img id="ananas" src="./img/ananas.png" alt="ananas">
+        <img id="grub" src="./img/grub.png" alt="grub">
+        <img id="kukurudza" src="./img/kukurudza.png" alt="kukurudza">
+        <img id="perets" src="./img/perets.png" alt="perets">
+        <img id="shpunat" src="./img/shpunat.png" alt="shpunat">
+        <img id="tomato" src="./img/tomato.png" alt="tomato">
+    </div>
+    
+ 
+    <button class="clearBtn" id="clearAllBtn">Стерти все</button>
+    
+    <div class="total">120грн</div>
+
+
+    <div class="confirmationModal" id="confirmationModal">
+        <div class="modalContent">
+            <h3>Підтвердження</h3>
+            <p>Ви впевнені, що хочете видалити всі інгредієнти?</p>
+            <div class="modalButtons">
+                <button class="modalBtn confirmBtn" id="confirmYes">Так, видалити</button>
+                <button class="modalBtn cancelBtn" id="confirmNo">Ні, залишити</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
